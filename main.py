@@ -11,10 +11,10 @@ with open('./response.json', 'r', encoding='utf8')as fp:
     class_all = response_json['data']['classAll']
 
 # 输入Secrets
-stu_name = '张伟涛'
-stu_id = '201816060101'
-dept_text = '人工智能与大数据学院-软件工程-软件1802'
-sc_url = 'https://sc.ftqq.com/SCU113644T14ba30195243fc52aa57f39f012316de5f5efe0a82acc.send'
+stu_name = inpu()
+stu_id = input()
+dept_text = input()
+sc_url = input()
 
 
 def main():
