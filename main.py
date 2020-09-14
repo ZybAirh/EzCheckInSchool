@@ -11,7 +11,7 @@ with open('./response.json', 'r', encoding='utf8')as fp:
     class_all = response_json['data']['classAll']
 
 # 输入Secrets
-stu_name = inpu()
+stu_name = input()
 stu_id = input()
 dept_text = input()
 sc_url = input()
